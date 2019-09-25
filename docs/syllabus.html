@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="generator" content="pandoc" />
 
-
+    <link rel="shortcut icon" type="image/x-icon" href="../docs/index_files/figure-html/icone.jpg" />
 
 
     <title>Ementa</title>
@@ -315,7 +315,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-                    <a class="navbar-brand" href="index.html">Jurimetria aplicada</a>
+                    <a class="navbar-brand" href="index.html">Curso R+postgreSQL</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -326,21 +326,38 @@
                             <a href="syllabus.html">Ementa</a>
                         </li>
                         <li>
-                            <a href="bio.html">Biografia</a>
+                            <a target="_blank" href="bio.html">Biografia</a>
                         </li>
                         <li>
                             <a href="faq.html">FAQ</a>
                         </li>
-                        <li>
-                            <a href="notes/index.html">Material</a>
-                        </li>
+                        
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a style="background-color:rgb(241, 238, 8);color: black; padding:10px;
-                             box-shadow: 2px 2px 2px rgba(0,0,0,.50); margin-top: 10px;"
-                             href="inscricao.html"><b>Inscreva-se</b></a>
-                        </li>
+                    <style>
+
+                            li#botaoinsc a {
+                                background-color:rgb(241, 238, 8); 
+                                color: black;
+                                 padding:10px;
+                                    box-shadow: 2px 2px 2px rgba(0,0,0,.50); 
+                                    margin-top: 10px;
+                            }
+    
+                                li#botaoinsc a:hover {
+                                    color: #ffffff;
+                                    text-decoration: underline;
+                                    background-color:rgb(241, 238, 8); 
+                                    color: black; 
+                                    padding:10px;
+                                    box-shadow: 2px 2px 2px rgba(0,0,0,.50); 
+                                    margin-top: 10px;
+                                }
+                        </style>
+    
+                        <ul class="nav navbar-nav navbar-right">
+                            <li id="botaoinsc">
+                                    <a href="inscricao.html"><b>Inscreva-se</b></a>
+                            </li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
@@ -359,78 +376,278 @@
         <br>
         <div id="ementa" class="section level2">
             <h2>Ementa</h2>
-            <p>O curso é destinado a acadêmicos de direito e de ciência política, como também profissionais do direito, interessados em aprender como juízes, desembargadores e ministros decidem as causas submetidas a eles. O curso dará uma introdução ao
-                ambiente de programação R e mostrará como baixar, organizar e analisar as decisões do TJSP e do STF. A análise permitirá prever decisões futuras com base em decisões passadas. Para tanto, utilizará de métodos estatísticos, de processamento
-                de linguagem natural e de machine learning. Ao final, os participantes terão a oportunidade de visualizar os resultados em um aplicativo rico em dados e em possibilidades de análise.</p>
+            <p>Neste curso você irá aprender os fundamentos de uma das principais linguagens para ciência de dados. Além disso você terá um curso completo de PostgreSQL: O banco de dados relacional Open Source mais avançado do mundo. Melhor ainda, você aprenderá a manusear bases de dados relacionais apartir do R.  </p>
         </div>
+
+        <style>
+                #programa {
+                    font-weight: bold;
+                   
+                }
+
+                li#naomex{
+                    font-weight: normal;
+                   
+                }
+
+                ul#ulleft{
+                   
+                    color: #606164ec
+                }
+
+
+
+
+            </style>
+
+
         <div id="programa" class="section level2">
-            <h2>Programa</h2>
+
+            <h2>Programa - R</h2>
             <ol style="list-style-type: decimal">
-                <li>Introdução</li>
+                <li>Ambientação</li>
             </ol>
-            <ul>
-                <li>Estado atual da jurimetria no Brasil.</li>
-            </ul>
+        
             <ol start="2" style="list-style-type: decimal">
-                <li>Desenho de pesquisa</li>
+                <li>R - Projetos</li>
             </ol>
-            <ul>
-                <li>Elaboração da teoria explicativa</li>
-                <li>Formulação de hipóteses teóricas</li>
-                <li>Operacionalização de hipóteses</li>
-                <li>Análise de viabilidade</li>
-            </ul>
+            
             <ol start="3" style="list-style-type: decimal">
-                <li>Coleta de dados</li>
+                <li>R - Básico</li>
             </ol>
-            <ul>
-                <li>Familiarização com o ambiente R</li>
-                <li>Automação da coleta de processos judiciais</li>
-                <li>Conversão de dados desestruturados em estruturados</li>
-                <li>Limpeza e organização dos dados</li>
-            </ul>
+
             <ol start="4" style="list-style-type: decimal">
-                <li>Estatísticas descritivas</li>
+                <li>R - Funções</li>
             </ol>
-            <ul>
-                <li>Criação de sumários: frequências, proporções, média, mediana, desvio padrão</li>
-                <li>Tabelas de contingência: cruzamento dos dados</li>
-                <li>Visualização dos dados: gráficos de barras, gráficos de linha, histogramas e mapas</li>
-            </ul>
+
             <ol start="5" style="list-style-type: decimal">
-                <li>Preparando-se para análise: análise exploratória de dados</li>
+                <li>R - Objetos</li>
             </ol>
-            <ul>
-                <li>Relação das variáveis explicativas com a decisão judicial</li>
-                <li>Valor da informação e peso da evidência</li>
-            </ul>
+
             <ol start="6" style="list-style-type: decimal">
-                <li>Análise dos dados</li>
+                <li>R - Operadores Básicos do R</li>
             </ol>
-            <ul>
-                <li>Noções de inferência estatística</li>
-                <li>Noções de análise preditiva</li>
-                <li>Diferentes métodos de análise de decisões judiciais: regressão logística, regressão logística mista, machine learning</li>
-                <li>Exemplo concreto: predição de decisão judicial</li>
-            </ul>
+
             <ol start="7" style="list-style-type: decimal">
-                <li>Interpretação e validação dos resultados</li>
+                <li>R - Vetores</li>
             </ol>
-            <ul>
-                <li>Intepretando os resultados da regressão logística</li>
-                <li>Interpretando os resultados de machine learning</li>
-                <li>Comparando os resultados</li>
-                <li>Avaliação de desempenho: acurácia, sensitividade, especificidade</li>
-                <li>Entendendo a curva ROC e a área debaixo da curva</li>
-            </ul>
+
             <ol start="8" style="list-style-type: decimal">
-                <li>Publicação dos dados</li>
+                <li>R - Data Frames</li>
             </ol>
-            <ul>
-                <li>Criando um aplicativo para visualizar os resultados.</li>
-                <li>Disponibilização do aplicativo</li>
-            </ul>
+
+            <ol start="9" style="list-style-type: decimal">
+                <li>R - Tidyverse</li>
+            </ol>
+
+            <ul id="ulleft"><li id="naomex">Tibble</li></ul>
+            <ul id="ulleft"><li id="naomex">Tidyr</li></ul>
+            <ul id="ulleft"><li id="naomex">Dplyr</li></ul>
+            <ul id="ulleft"><li id="naomex">Purrr</li></ul>
+            <ul id="ulleft"><li id="naomex">Lubrydate</li></ul>
+            <ul id="ulleft"><li id="naomex">Forcats</li></ul>
+            <ul id="ulleft"><li id="naomex">Ggplot2</li></ul>
+            
+            <ol start="10" style="list-style-type: decimal">
+                <li>R - Webscraping</li>
+                </ol>
         </div>
+
+        
+
+        <div id="programa" class="section level2">
+
+            <h2>Programa - PostgreSQL</h2>
+            <ol start="1" style="list-style-type: decimal">
+                <li>Introdução</li></ol>
+
+            <ol start="2" style="list-style-type: decimal">
+                <li>PostgreSQL - Visão Geral </li>
+            </ol>
+
+            <ol start="3" style="list-style-type: decimal">
+                <li>PostgreSQL - Configuração do Ambiente </li></ol>
+            
+            <ol start="4" style="list-style-type: decimal">
+                <li>PostgreSQL - Sintaxe </li>
+            </ol>
+            <ol start="5" style="list-style-type: decimal">
+                <li>PostgreSQL - Tipos de Dados </li>
+            </ol>
+
+            <ol start="6" style="list-style-type: decimal">
+                <li>PostgreSQL - Criar banco de dados</li>
+            </ol>
+
+            <ol start="7" style="list-style-type: decimal">
+                <li> PostgreSQL - Selecionar banco de dados</li>
+            </ol>
+
+            <ol start="8" style="list-style-type: decimal">
+                <li>PostgreSQL - Drop Database </li>
+            </ol>
+
+            <ol start="9" style="list-style-type: decimal">
+                <li> PostgreSQL - Criar Tabela </li>
+            </ol>
+
+            <ol start="10" style="list-style-type: decimal">
+                <li>PostgreSQL - Drop Table </li>
+            </ol>
+            
+            <ol start="11" style="list-style-type: decimal">
+                <li>PostgreSQL - Eschema </li>
+            </ol>
+            <ol start="12" style="list-style-type: decimal">
+                <li> PostgreSQL - Insert Query </li>
+            </ol>
+            <ol start="13" style="list-style-type: decimal">
+                <li> PostgreSQL - Select Query </li>
+            </ol>
+            <ol start="14" style="list-style-type: decimal">
+                <li>PostgreSQL - Operadores </li>
+            </ol>
+        
+            <ol start="15" style="list-style-type: decimal">
+            <li> PostgreSQL - Expressões </li>
+        </ol>
+            <ol start="16" style="list-style-type: decimal">
+            <li> PostgreSQL - cláusula where</li>
+        </ol>
+            <ol start="17" style="list-style-type: decimal">
+            <li>PostgreSQL - cláusulas AND & OR</li>
+        </ol>
+            <ol start="18" style="list-style-type: decimal">
+            <li> PostgreSQL - consulta de atualização</li>
+        </ol>
+            <ol start="19" style="list-style-type: decimal">
+            <li> PostgreSQL - Delete Query</li>
+        </ol>
+            <ol start="20" style="list-style-type: decimal">
+            <li> PostgreSQL - Cláusula Like</li>
+        </ol>
+            <ol start="21" style="list-style-type: decimal">
+            <li> PostgreSQL - Cláusula Limit</li>
+        </ol>
+            <ol start="22" style="list-style-type: decimal">
+            <li>  PostgreSQL - Cláusula Order By</li>
+        </ol>
+            <ol start="23" style="list-style-type: decimal">
+            <li>  PostgreSQL - Cláusula Group By</li>
+        </ol>
+            <ol start="24" style="list-style-type: decimal">
+            <li>  PostgreSQL - Cláusula With</li>
+        </ol>
+            <ol start="25" style="list-style-type: decimal">
+            <li>  PostgreSQL - Cláusula Having</li>
+        </ol>
+            <ol start="26" style="list-style-type: decimal">
+            <li>   PostgreSQL - Palavra-chave Distinct </li>
+        </ol>
+
+        <br>
+        </div>
+
+        <div id="programa" class="section level2">
+        <h2> Programa - R+PostgreSQL </h2>
+    </ol>
+
+    <ol start="1" style="list-style-type: decimal">
+    <li> R+PostgreSQL - Como conectar o R ao PostgreSQL </li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>   R+PostgreSQL - Enviar queries do R ao PostgreSQL</li>
+</ol>
+
+<ol start="3" style="list-style-type: decimal">
+    <li>   R+PostgreSQL - Receber resultado de queries enviados ao PostgreSQL  </li>
+</ol>
+
+    <ol start="4" style="list-style-type: decimal">
+        <li>   R+PostgreSQL - Executar queries no PostgreSQL a partir do R   </li>
+        </ol>
+
+    <ol start="5" style="list-style-type: decimal">
+        <li>   R+PostgreSQL - Criar funções R para executar no PostgreSQL</li>
+        </ol>
+
+    <ol start="6" style="list-style-type: decimal">
+        <li>   R+PostgreSQL - Executar queries seguras.</li>
+        </ol>
+
+    <ol start="7" style="list-style-type: decimal">
+            <li>   R+PostgreSQL - Elaborar diagramas UML com R.</li>
+            </ol>
+
+    <ol start="8" style="list-style-type: decimal">
+                <li>   R+PostgreSQL - Criar visualizações no R a partir de bases PostgreSQL. </li>
+                </ol>
+
+                <ol start="9" style="list-style-type: decimal">
+                    <li>   R+PostgreSQL - Conectar seu aplicativo shiny ao PostgreSQL.</li>
+                    </ol>
+</div>
+<br>
+<div id="programa" class="section level2">
+        <h4> <i><b>PostgreSQL avançado</b></i></h4>
+        
+            <ol start="1" style="list-style-type: decimal">
+            <li>  PostgreSQL - Constraints</li>
+        </ol>
+            <ol start="2" style="list-style-type: decimal">
+            <li>  PostgreSQL - Joins</li>
+        </ol>
+            <ol start="3" style="list-style-type: decimal">
+            <li> PostgreSQL - Cláusula Unions</li>
+        </ol>
+            <ol start="4" style="list-style-type: decimal">
+            <li> PostgreSQL - Valores NULL</li>
+        </ol>
+            <ol start="5" style="list-style-type: decimal">
+            <li> PostgreSQL - Sintaxe Alias</li>
+        </ol>
+            <ol start="6" style="list-style-type: decimal">
+            <li> PostgreSQL - Triggers</li>
+        </ol>
+            <ol start="7" style="list-style-type: decimal">
+            <li>  PostgreSQL - Indexes</li>
+        </ol>
+            <ol start="8" style="list-style-type: decimal">
+            <li>  PostgreSQL - Comando Alter Table</li>
+        </ol>
+            <ol start="9" style="list-style-type: decimal">
+            <li>PostgreSQL - Comando Truncate Table</li>
+        </ol>
+            <ol start="10" style="list-style-type: decimal">
+            <li> PostgreSQL - Views</li>
+        </ol>
+            <ol start="11" style="list-style-type: decimal">
+            <li>  PostgreSQL - Transações</li>
+        </ol>
+            <ol start="12" style="list-style-type: decimal">
+            <li> PostgreSQL - Bloqueios</li>
+        </ol>
+            <ol start="13" style="list-style-type: decimal">
+            <li>  PostgreSQL - Sub Queries</li>
+        </ol>
+            <ol start="14" style="list-style-type: decimal">
+            <li>   PostgreSQL - Auto Increment</li>
+        </ol>
+            <ol start="15" style="list-style-type: decimal">
+            <li> PostgreSQL - Privilégios</li>
+        </ol>
+            <ol start="16" style="list-style-type: decimal">
+            <li>   Funções de data / hora e operadores</li>
+        </ol>
+            <ol start="17" style="list-style-type: decimal">
+            <li> PostgreSQL - Funções</li>
+            </ol>
+
+            <ol start="18" style="list-style-type: decimal">
+            <li> PostgreSQL - Funções Úteis</li>
+            </ol>
+</div>
+         
 
 
 
