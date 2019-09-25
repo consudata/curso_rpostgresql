@@ -299,7 +299,13 @@
 
 </head>
 
-<body>
+<style>
+    body#fixar {
+    overflow: hidden;
+}
+</style>
+
+<body id="fixar">
 
 
     <div class="container-fluid main-container">
@@ -359,7 +365,7 @@
         </div>
         <div id="transmissao-simultanea" class="section level3">
             <h3>Transmissão simultânea</h3>
-            <p>O curso ocorrerá online, ao vivo.</p>
+            <p>O curso ocorrerá online, ao vivo e você poderá assistir as mesmas aulas em versão online.</p>
         </div>
         
         
@@ -383,24 +389,53 @@
             <h3>Informações do curso:</h3>
             <ul>
                 <li>Local: Via internet</li>
-                <li>Data: Janeiro de 2020 </li>
-                <li>Horário: 9h00 às 13h00.</li>
-                <li>Duração: XX horas</li>
-                <li>Investimento Transmissão Simultânea: R$ 500,00</li>
-
+                <li>Início das aulas e disponibilidade de acesso ao curso online: Janeiro de 2020 </li>
+                <li>Horário: Terças e quintas-feiras (2 horas por dia) ou aos sábados (4 horas por dia).</li>
+            </ul>
+                
+                <h3>Transmissão simultânea + curso online:</h3>
+                <ul>
+                <li>Pagamento até dia 30 de outubro de 2019: R$ 400,00</li>
+                <li>Pagamento até dia 30 de novembro de 2019: R$ 500,00</li>
+                <li>Pagamento após 30 de novembro de 2019 R$ 700,00</li>
             </ul>
             
         </div>
-        <div>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="AYZXHGD6J3WN8">
-                <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+
+<style>
+    #borderpag{
+        border: outset 10px;
+        text-align: center;
+        width: 400px;
+        weight: 50px;
+        border-width: medium;
+        padding-bottom: 170px;
+        background-image: url("paypal.png");
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+    #rightt{
+        position: relative;
+        left: 600px;
+        top: -300px;
+    }
+
+
+</style>
+<aside id="rightt">
+        <div id="borderpag">
+            <h2> <b><i>Pagamento:</i></b></h2>
+                <select onchange="location.href=this.value">
+                        <option value="#">Selecione</option>
+                        <option value="http://www.botafogo.com.br">Pagamento até dia 30 de outubro de 2019: R$ 400,00</option>
+                        <option value="http://www.flamengo.com.br">Pagamento até dia 30 de novembro de 2019: R$ 500,00</option>
+                        <option value="http://www.fluminense.com.br">Pagamento após 30 de novembro de 2019 R$ 700,00</option>
+                   </select>
                 
         </div>
-        
+    </aside>
 
 
 
